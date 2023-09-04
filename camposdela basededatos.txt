@@ -1,0 +1,64 @@
+inicio 
+
+fondo de imagen : link
+menu 
+titulo1  : texto
+titulo2  : texto
+logoderivery1 : foto ,link
+logoderivery2 : foto ,link
+
+en menu 
+
+entradas : 
+  entrada1 : imagen , nombre , link
+  entrada2
+  entrada3
+
+plato principales
+  pp1 : imagen , nombre , link
+  pp2
+  pp3
+
+postres
+  p1 : imagen , nombre , link
+  p2
+  p3
+
+direccion 
+telefono 
+informacion de direccion
+
+en menu 
+entradas  : nombre 
+  entrada1 : imagen , nombre , link
+  entrada2
+  entrada3
+ entrada4
+  entrada5
+  entrada6
+ entrada7
+  entrada8
+  entrada9
+plato principales : nombre
+  pp1 : imagen , nombre , link
+  pp2
+  pp3
+  pp4
+  pp5
+  pp6
+  pp7
+  pp8
+  pp9
+postres :nombre 
+  p1 : imagen , nombre , link
+  p2
+  p3
+  p4
+  p5
+  p6
+  p7
+  p8
+  p9
+sobre nosotros : 
+ sobre nosotros : texto
+

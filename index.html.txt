@@ -1,0 +1,85 @@
+https://www.cocina-brasilena.com/recetas/plato-principal 
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Ejemplo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Menú</a></li>
+                <li><a href="#">Reservas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Bienvenidos al Restaurante Ejemplo</h1>
+            <p>Disfruta de nuestra deliciosa comida y ambiente acogedor.</p>
+        </section>
+
+        <section class="menu">
+            <h2>Nuestro Menú</h2>
+            <div class="categoria">
+                <h3>Entrantes</h3>
+                <ul>
+                    <li>Entrante 1</li>
+                    <li>Entrante 2</li>
+                    <li>Entrante 3</li>
+                </ul>
+            </div>
+            <div class="categoria">
+                <h3>Platos principales</h3>
+                <ul>
+                    <li>Plato 1</li>
+                    <li>Plato 2</li>
+                    <li>Plato 3</li>
+                </ul>
+            </div>
+            <div class="categoria">
+                <h3>Postres</h3>
+                <ul>
+                    <li>Postre 1</li>
+                    <li>Postre 2</li>
+                    <li>Postre 3</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="reservas">
+            <h2>Reservas</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+
+                <label for="personas">Número de personas:</label>
+                <input type="number" id="personas" name="personas" min="1" max="10" required>
+
+                <label for="comentarios">Comentarios adicionales:</label>
+                <textarea id="comentarios" name="comentarios"></textarea>
+
+                <button type="submit">Reservar mesa</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Restaurante Ejemplo 2023. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
