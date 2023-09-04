@@ -237,7 +237,82 @@ Pedido A Domicilio :">
         <p>&copy;  Todos los derechos reservados.</p>
     </footer>
 </body>
+
+
+
+
+
+
+
+
+
+
+
 <?php 
+
+
+$titulo = $_POST["titulo"];
+$frase = $_POST["frase"];
+$e1nombre = $_POST["e1nombre"];
+$e1precio = $_POST["e1precio"];
+$e1imagen = $_POST["e1imagen"];
+$e2nombre = $_POST["e2nombre"];
+$e2precio = $_POST["e2precio"];
+$e2imagen = $_POST["e2imagen"];
+$e3nombre = $_POST["e3nombre"];
+$e3precio = $_POST["e3precio"];
+$e3imagen = $_POST["e3imagen"];
+$pp1nombre = $_POST["pp1nombre"];
+$pp1precio = $_POST["pp1precio"];
+$pp1imagen = $_POST["pp1imagen"];
+$pp2nombre = $_POST["pp2nombre"];
+$pp2precio = $_POST["pp2precio"];
+$pp2imagen = $_POST["pp2imagen"];
+$pp3nombre = $_POST["pp3nombre"];
+$pp3precio = $_POST["pp3precio"];
+$pp3imagen = $_POST["pp3imagen"];
+$p1nombre = $_POST["p1nombre"];
+$p1precio = $_POST["p1precio"];
+$p1imagen = $_POST["p1imagen"];
+$p2nombre = $_POST["p2nombre"];
+$p2precio = $_POST["p2precio"];
+$p2imagen = $_POST["p2imagen"];
+$telfono = $_POST["telfono"];
+$infocontacto = $_POST["infocontacto"];
+
+
+
+
+
+    $conn = new mysqli("ao9moanwus0rjiex.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","lz433sbvg6yghw2p","ns0u47xfk11p6vh2","cxtc21a6xabzei03");
+    //$conn = mysqli_connect("localhost","root","","db1");
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+  
+
+    $sql = "INSERT INTO webadmin 
+    (titulo, frase, e1nombre , e1precio, e1imagen, e2nombre, e2precio, e2imagen, e3nombre, 
+    e3precio, e3imagen, pp1nombre, pp1precio, pp1imagen, pp2nombre, pp2precio,
+     pp2imagen, pp3nombre, pp3precio, pp3imagen, p1nombre, p1precio, p1imagen, 
+     p2nombre,p2precio, p2imagen, telefono, infocontacto)
+    VALUES ('$titulo','$frase','$e1nombre','$e1precio', '$e1imagen', '$e2nombre', '$e2precio', 
+    '$e2imagen', '$e3nombre','$e3precio', '$e3imagen', '$pp1nombre', '$pp1precio', 
+    '$pp1imagen', '$pp2nombre', '$pp2precio', '$pp2imagen', '$pp3nombre', '$pp3precio',
+     '$pp3imagen', '$p1nombre', '$p1precio', '$p1imagen', '$p2nombre', '$p2precio', 
+      '$p2imagen',  '$telfono', '$infocontacto')";
+    
+
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+      } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+      }
+    
+
+
+
+
 
 
 
@@ -310,85 +385,6 @@ document.getElementById("infocontacto").innerHTML = "'.$infocontactox.'";
         
 
     }
-
-
-
-
-
- 
- 
- ?>
-
-
-
-
-
-
-
-
-
-
-<?php 
-
-
-$titulo = $_POST["titulo"];
-$frase = $_POST["frase"];
-$e1nombre = $_POST["e1nombre"];
-$e1precio = $_POST["e1precio"];
-$e1imagen = $_POST["e1imagen"];
-$e2nombre = $_POST["e2nombre"];
-$e2precio = $_POST["e2precio"];
-$e2imagen = $_POST["e2imagen"];
-$e3nombre = $_POST["e3nombre"];
-$e3precio = $_POST["e3precio"];
-$e3imagen = $_POST["e3imagen"];
-$pp1nombre = $_POST["pp1nombre"];
-$pp1precio = $_POST["pp1precio"];
-$pp1imagen = $_POST["pp1imagen"];
-$pp2nombre = $_POST["pp2nombre"];
-$pp2precio = $_POST["pp2precio"];
-$pp2imagen = $_POST["pp2imagen"];
-$pp3nombre = $_POST["pp3nombre"];
-$pp3precio = $_POST["pp3precio"];
-$pp3imagen = $_POST["pp3imagen"];
-$p1nombre = $_POST["p1nombre"];
-$p1precio = $_POST["p1precio"];
-$p1imagen = $_POST["p1imagen"];
-$p2nombre = $_POST["p2nombre"];
-$p2precio = $_POST["p2precio"];
-$p2imagen = $_POST["p2imagen"];
-$telfono = $_POST["telfono"];
-$infocontacto = $_POST["infocontacto"];
-
-
-
-
-
-    $conn = new mysqli("ao9moanwus0rjiex.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","lz433sbvg6yghw2p","ns0u47xfk11p6vh2","cxtc21a6xabzei03");
-    //$conn = mysqli_connect("localhost","root","","db1");
-    if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-    }
-  
-
-    $sql = "INSERT INTO webadmin 
-    (titulo, frase, e1nombre , e1precio, e1imagen, e2nombre, e2precio, e2imagen, e3nombre, 
-    e3precio, e3imagen, pp1nombre, pp1precio, pp1imagen, pp2nombre, pp2precio,
-     pp2imagen, pp3nombre, pp3precio, pp3imagen, p1nombre, p1precio, p1imagen, 
-     p2nombre,p2precio, p2imagen, telefono, infocontacto)
-    VALUES ('$titulo','$frase','$e1nombre','$e1precio', '$e1imagen', '$e2nombre', '$e2precio', 
-    '$e2imagen', '$e3nombre','$e3precio', '$e3imagen', '$pp1nombre', '$pp1precio', 
-    '$pp1imagen', '$pp2nombre', '$pp2precio', '$pp2imagen', '$pp3nombre', '$pp3precio',
-     '$pp3imagen', '$p1nombre', '$p1precio', '$p1imagen', '$p2nombre', '$p2precio', 
-      '$p2imagen',  '$telfono', '$infocontacto')";
-    
-
-    if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
-      } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-      }
-    
 
 
 
