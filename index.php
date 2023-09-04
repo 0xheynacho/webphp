@@ -155,13 +155,7 @@
 
     
 
-
-
-
-
-
-
-    $registro = mysqli_query($conn,"select * from webadmin order by id DESC limit 1 ");
+    $registro = mysqli_query($conn,"select * from webadmin order by id DESC limit 1");
     while(list(
 $id, $titulox, $frasex, $e1nombrex, $e1preciox, $e1imagenx, 
 $e2nombrex, $e2preciox, $e2imagenx, $e3nombrex, $e3preciox,
@@ -185,39 +179,39 @@ document.getElementById("frase").innerHTML = "'.$frasex.'";
 
 document.getElementById("e1nombre").innerHTML = "'.$e1nombrex.'";
 //document.getElementById("e1precio").innerHTML = "'.$e1preciox.'";
-//document.getElementById("e1imagen").src = "'.$e1imagenx.'";
+document.getElementById("e1imagen").src = "'.$e1imagenx.'";
 
 document.getElementById("e2nombre").innerHTML = "'.$e2nombrex.'";
 //document.getElementById("e2precio").innerHTML = "'.$e2precio.'";
-//document.getElementById("e2imagen").src = "'.$e2imagen.'";
+document.getElementById("e2imagen").src = "'.$e2imagen.'";
 
 document.getElementById("e3nombre").innerHTML = "'.$e3nombrex.'";
 //document.getElementById("e3precio").innerHTML = "'.$e3precio.'";
-//document.getElementById("e3imagen").src = "'.$e3imagen.'";
+document.getElementById("e3imagen").src = "'.$e3imagen.'";
 
 document.getElementById("pp1nombre").innerHTML = "'.$pp1nombrex.'";
 //document.getElementById("pp1precio").innerHTML = "'.$pp1precio.'";
-//document.getElementById("pp1imagen").src = "'.$pp1imagen.'";
+document.getElementById("pp1imagen").src = "'.$pp1imagen.'";
 
 document.getElementById("pp2nombre").innerHTML = "'.$pp2nombrex.'";
 //document.getElementById("pp2precio").innerHTML = "'.$pp2precio.'";
-//document.getElementById("pp2imagen").src = "'.$pp2imagen.'";
+document.getElementById("pp2imagen").src = "'.$pp2imagen.'";
 
 document.getElementById("pp3nombre").innerHTML = "'.$pp3nombrex.'";
 //document.getElementById("pp3precio").innerHTML = "'.$pp3precio.'";
-//document.getElementById("pp3imagen").src = "'.$pp3imagen.'";
+document.getElementById("pp3imagen").src = "'.$pp3imagen.'";
 
 document.getElementById("p1nombre").innerHTML = "'.$p1nombrex.'";
 //document.getElementById("p1precio").innerHTML = "'.$p1precio.'";
-//document.getElementById("p1imagen").src = "'.$p1imagen.'";
+document.getElementById("p1imagen").src = "'.$p1imagen.'";
 
 document.getElementById("p2nombre").innerHTML = "'.$p2nombrex.'";
 //document.getElementById("p2precio").innerHTML = "'.$p2precio.'";
-//document.getElementById("p2imagen").src = "'.$p2imagen.'";
+document.getElementById("p2imagen").src = "'.$p2imagen.'";
 
 document.getElementById("p2nombre").innerHTML = "'.$p2nombrex.'";
 //document.getElementById("p2precio").innerHTML = "'.$p2precio.'";
-//document.getElementById("p2imagen").src = "'.$p2imagen.'";
+document.getElementById("p2imagen").src = "'.$p2imagen.'";
 
 document.getElementById("telfono").innerHTML = "'.$telfonox.'";
 document.getElementById("infocontacto").innerHTML = "'.$infocontactox.'";
@@ -230,6 +224,11 @@ document.getElementById("infocontacto").innerHTML = "'.$infocontactox.'";
         
 
     }
+
+
+
+
+
 
 
 
