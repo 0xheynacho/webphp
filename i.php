@@ -323,9 +323,9 @@ $e2nombrex, $e2preciox, $e2imagenx, $e3nombrex, $e3preciox,
 $e3imagenx, $pp1nombrex, $pp1preciox, $pp1imagenx, $pp2nombrex, 
 $pp2preciox, $pp2imagenx, $pp3nombrex, $pp3preciox, $pp3imagenx, 
 $p1nombrex, $p1preciox, $p1imagenx, $p2nombrex, $p2preciox, $p2imagenx,
- $p2nombrex,
- $p2preciox,
-  $p2imagenx, 
+ $p3nombrex,
+ $p3preciox,
+  $p3imagenx, 
  $telfonox, 
  $infocontactox ) = mysqli_fetch_array($registro))
     {
