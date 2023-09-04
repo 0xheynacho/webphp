@@ -96,7 +96,7 @@
 
         <section class="reservas" id = "reservas" style="width: 700px;" style="background-color: whitesmoke;">
             <h2>Reservaciónes</h2>
-            <form  action="reservaciones.php" method="post" >
+            <form  action="reservaindex.php" method="post" >
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
 
