@@ -13,7 +13,7 @@ if (!$conn) {
 $registro = mysqli_query($conn,"select * from  reservacione ");
 while(list( $a,$b,$c ,$d,$e) = mysqli_fetch_array($registro)){
 
-echo();
+echo( $a.$b.$c.$d.$e);
 
 }
 
