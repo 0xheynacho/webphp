@@ -16,13 +16,13 @@
 
 
  
-<aside id="aside" style = " float:left; width :17%; height:300rem; background-color:gray;"> 
+<aside id="aside" style = " float:left; width :18%; height:201rem; background-color:gray;"> 
 
-
-<h2> Header</h2>
+<center>
+<h2> Header</h2> </center>
 <form action="i.php" method="post">
 
-<div style="margin-bottom:5rem;"> <button  type="submit" style =" background-color:black; color:white"> Editar</button></div>
+
 
 <div style = " margin-bottom:10rem ;background-color:black; color :white;height : 7rem; position:fixed; width: 17%;"> 
  <center><h1> Inicio</h1></div></center>
@@ -123,7 +123,7 @@ Pedido A Domicilio :">
 </div>
 </center>
 
-<input type="submit">
+<input type="submit" style =" background-color:black; color:white value = "editar" >
 
 </form>
 
