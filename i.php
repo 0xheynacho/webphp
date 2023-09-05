@@ -12,7 +12,7 @@ if ($uid == null or $pwd ==null)
     header("Location: login.php");
 }
 
-if ($uid != "jose" && $pwd != "ignacio")
+if ($uid != "jose" or $pwd != "ignacio")
 {
     header("Location: login.php");
   
