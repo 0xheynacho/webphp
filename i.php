@@ -1,29 +1,3 @@
-<?php 
-$uid = $_POST["uid"];
-$pwd = $_POST["pwd"];
-
-
-
-echo("en login");
-echo(' <script> document.getElementById("pwdin").style.display = "none";</script>');
-if ($uid == null or $pwd ==null) 
-{
-    echo("es null");
-    header("Location: login.php");
-}
-
-if ($uid != "jose" or $pwd != "ignacio")
-{
-    header("Location: login.php");
-  
-    
-
-}
-
-
-
-
-?>
 
 
 
