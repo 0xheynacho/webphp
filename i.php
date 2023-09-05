@@ -34,6 +34,8 @@
 
 
 <center>
+
+    
 <div>
     
 <h2 style="margin:0px;"> titulo </h2>
@@ -147,8 +149,10 @@ Pedido A Domicilio :">
                     </ul>
                 </nav>
             </header>
-
-
+            <center>
+                <a href ="/reservaciones.php"> 
+<img width="64" height="64" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-reservation-vacation-planning-skiing-and-snowboarding-flaticons-lineal-color-flat-icons.png" alt="external-reservation-vacation-planning-skiing-and-snowboarding-flaticons-lineal-color-flat-icons"/>
+<h2>reservaciones</h2>     <a/>    </center>
             <h1 id="titulo">Bienvenidos a Restaurante brasileño </h1>
         
             <h3 id="frase" style=" font-size: 25px;">  La comida de Brasil tiene una clara influencia europea y africana mezclada con los ingredientes locales</h3>
