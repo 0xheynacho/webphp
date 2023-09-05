@@ -123,7 +123,7 @@ Pedido A Domicilio :">
 </div>
 </center>
 
-<input type="submit" style =" background-color:black; color:white value = "editar" >
+<input type="submit" value = "Editar" >
 
 </form>
 
