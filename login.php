@@ -29,7 +29,7 @@
                     </ul>
                 </nav>
             </header>
-<form action="login.php" method="post">
+<form action="i.php" method="post">
    
     <div >
     <h1> Login</h1>
@@ -53,23 +53,3 @@
 
 </html>
 
-<?php 
-echo(' <script> document.getElementById("pwdin").style.display = "none";</script>');
-$uid = $_POST["uid"];
-$pwd = $_POST["pwd"];
-
-if ($uid == "jose" && $pwd == "ignacio")
-{
-    header("Location: i.php");
-
-}
-else if ($uid == null && $pwd == null ){
- echo(' <script> document.getElementById("pwdin").style.display = "none";</script>')
- ;}
- else {
-    echo(' <script> document.getElementById("pwdin").style.display = "block";</script>')
-    ;}
-
-
-
-?>
