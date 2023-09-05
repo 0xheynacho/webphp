@@ -156,7 +156,7 @@ Pedido A Domicilio :">
             <h2 id="titulo">Bienvenidos a Restaurante brasileño </h2>
         
             <h3 id="frase" style=" font-size: 25px;">  La comida de Brasil tiene una clara influencia europea y africana mezclada con los ingredientes locales</h3>
-<h3 style="margin-bottom: 30px;"> Pedido A Domicilio : </h3>
+<h3 style="margin-bottom: 1px;"> Pedido A Domicilio : </h3>
 
 <a href=" https://www.ubereats.com/do/store/boi-na-brasa/tDS76JCQSGyMCMzoGWKKdA?diningMode=DELIVERY&ps=1"  style="margin-right: 50px
 ;">
